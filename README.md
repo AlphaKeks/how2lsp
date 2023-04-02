@@ -1,4 +1,4 @@
-# lsp-one
+# how2lsp
 
 This is meant as a base for you to start configuring Treesitter, LSP and nvim-cmp for neovim. It's
 not meant to "just work" but rather to explain the basics and give you a push into the right
