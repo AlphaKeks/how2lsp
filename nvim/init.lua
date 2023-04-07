@@ -80,7 +80,7 @@ if treesitter_installed then
 		-- Everytime you launch nvim treesitter will make sure these
 		-- parsers are installed and up to date.
 		ensure_installed = {
-			"help",
+			"vimdoc",
 			"vim",
 			"rust",
 			"lua",
@@ -90,7 +90,7 @@ if treesitter_installed then
 		-- cause problems in some languages (e.g. python) so you
 		-- might need to disable it for certain filetypes.
 		-- Docs: https://github.com/nvim-treesitter/nvim-treesitter#indentation
-		ident = {
+		indent = {
 			enable = true
 		},
 
